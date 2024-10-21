@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+
+      <div class="card">
+         <img src="./images/headphone-removebg-preview.png" class="product-img" alt="product-img">
+          <div class="card-info">
+             <h2>
+                boAt Nirvana 751 Over-Ear Headphones 
+            </h2>
+              <p class="price">Price : ₹100/-</p>
+             <div class="incre-decre">
+            <img src="./images/decrement.png" class="icon-img" onclick="decOper('decrement')"  alt="">
+            <span class="digit" id="digit">1</span>
+            <img src="./images/increment.png" class="icon-img" onclick="incOper('increment')" alt="">
+             </div>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+
+    </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
